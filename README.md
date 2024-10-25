@@ -24,32 +24,6 @@ Here’s an example of a response you might receive when querying the API:
 
 ```json
 {
-    "creationDate": "2006-02-27T21:06:40.3Z",
-    "description": "Welcome to the Roblox profile! This is where you can check out the newest items in the catalog, and get a jumpstart on exploring and building on our Imagination Platform. If you want news on updates to the Roblox platform, or great new experiences to play with friends, check out blog.roblox.com. Please note, this is an automated account. If you need to reach Roblox for any customer service needs find help at www.roblox.com/help",
-    "isBanned": false,
-    "lastLocation": "Website",
-    "lastOnline": "2023-04-17T21:39:32Z",
-    "pastUsernames": [],
-    "pastUsernamesCount": 0,
-    "private": false,
-    "rap": 294671811,
-    "thumbnails": {
-        "avatarThumbnail": "https://tr.rbxcdn.com/30DAY-Avatar-310966282D3529E36976BF6B07B1DC90-Png/420/420/Avatar/Png/noFilter",
-        "faceThumbnail": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-310966282D3529E36976BF6B07B1DC90-Png/420/420/AvatarHeadshot/Png/noFilter"
-    },
-    "timeTaken": "0.2878 seconds",
-    "userId": 1,
-    "username": "Roblox",
-    "value": 464088625,
-    "verified": true
-}
-
-## Request Example Explanation
-
-This section provides an explanation of the API response structure and its fields for easier understanding and usage.
-
-```json
-{
     "creationDate": "2008-06-23T01:35:08.373Z", // The date when the Roblox account was created.
     "description": "", // A brief description of the Roblox account.
     "isBanned": false, // Indicates whether the account is banned.
@@ -70,3 +44,4 @@ This section provides an explanation of the API response structure and its field
     "verified": false // Indicates whether the account is email verified.
 }
 
+```
