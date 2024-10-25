@@ -10,7 +10,6 @@ def Swagger(endpoint, username):
         response = requests.get(f"https://roswagger.com/get/{endpoint}/{username}")
         CoolSwag = response.json()
         
-        # Check if the error related to rate limiting is returned
         if "error" in CoolSwag and "Please wait" in CoolSwag["error"]:
             wait_time = CoolSwag.get("timeLeft", 5)
             print(f"Rate limit hit. Retrying in {wait_time} seconds...")
