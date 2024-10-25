@@ -43,3 +43,30 @@ Here’s an example of a response you might receive when querying the API:
     "value": 464088625,
     "verified": true
 }
+
+# Request Example Explanation
+
+The API explained for you to use it
+
+```json
+{
+    "creationDate": "2008-06-23T01:35:08.373Z", // Creation date of the roblox account
+    "description": "", // Description of the roblox account
+    "isBanned": false, // Is the account banned
+    "lastLocation": "Website", // Last place account was seen
+    "lastOnline": "2023-01-31T18:38:42Z", // Last online information
+    "pastUsernames": [], // Past Usernames on Roblox
+    "pastUsernamesCount": 0, // Count of past usernames
+    "private": false, // Is the inventory private
+    "rap": 0, // Account RAP
+    "thumbnails": {
+        "avatarThumbnail": "https://tr.rbxcdn.com/30DAY-Avatar-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/Avatar/Png/noFilter", // Avatar thumbnail
+        "faceThumbnail": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/AvatarHeadshot/Png/noFilter" // Just the face thumbnail
+    },
+    "timeTaken": "0.7219 seconds", // How long it took to get that data
+    "userId": 553440, // userId of that account
+    "username": "Ilovekittys", // username of that Account
+    "value": 0, // value of the Roblox account
+    "verified": false // Roblox account verified (email)
+}
+```
