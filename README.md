@@ -46,27 +46,27 @@ Here’s an example of a response you might receive when querying the API:
 
 ## Request Example Explanation
 
-The API explained for you to use it
+This section provides an explanation of the API response structure and its fields for easier understanding and usage.
 
-```
+```json
 {
-    "creationDate": "2008-06-23T01:35:08.373Z", // Creation date of the roblox account
-    "description": "", // Description of the roblox account
-    "isBanned": false, // Is the account banned
-    "lastLocation": "Website", // Last place account was seen
-    "lastOnline": "2023-01-31T18:38:42Z", // Last online information
-    "pastUsernames": [], // Past Usernames on Roblox
-    "pastUsernamesCount": 0, // Count of past usernames
-    "private": false, // Is the inventory private
-    "rap": 0, // Account RAP
+    "creationDate": "2008-06-23T01:35:08.373Z", // The date when the Roblox account was created.
+    "description": "", // A brief description of the Roblox account.
+    "isBanned": false, // Indicates whether the account is banned.
+    "lastLocation": "Website", // The last location where the account was active.
+    "lastOnline": "2023-01-31T18:38:42Z", // The last time the account was online.
+    "pastUsernames": [], // A list of previous usernames associated with the account.
+    "pastUsernamesCount": 0, // The total count of past usernames.
+    "private": false, // Indicates if the account's inventory is private.
+    "rap": 0, // The account's RAP (Recent Average Price).
     "thumbnails": {
-        "avatarThumbnail": "https://tr.rbxcdn.com/30DAY-Avatar-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/Avatar/Png/noFilter", // Avatar thumbnail
-        "faceThumbnail": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/AvatarHeadshot/Png/noFilter" // Just the face thumbnail
+        "avatarThumbnail": "https://tr.rbxcdn.com/30DAY-Avatar-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/Avatar/Png/noFilter", // The URL for the avatar thumbnail.
+        "faceThumbnail": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-F8C66F037ACED3B0255AEBFD956E492C-Png/420/420/AvatarHeadshot/Png/noFilter" // The URL for the face thumbnail.
     },
-    "timeTaken": "0.7219 seconds", // How long it took to get that data
-    "userId": 553440, // userId of that account
-    "username": "Ilovekittys", // username of that Account
-    "value": 0, // value of the Roblox account
-    "verified": false // Roblox account verified (email)
+    "timeTaken": "0.7219 seconds", // The time taken to retrieve this data.
+    "userId": 553440, // The unique user ID of the account.
+    "username": "Ilovekittys", // The current username of the account.
+    "value": 0, // The value of the Roblox account.
+    "verified": false // Indicates whether the account is email verified.
 }
-```
+
