@@ -44,11 +44,11 @@ Here’s an example of a response you might receive when querying the API:
     "verified": true
 }
 
-# Request Example Explanation
+## Request Example Explanation
 
 The API explained for you to use it
 
-```json
+```
 {
     "creationDate": "2008-06-23T01:35:08.373Z", // Creation date of the roblox account
     "description": "", // Description of the roblox account
