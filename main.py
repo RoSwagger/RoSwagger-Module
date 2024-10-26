@@ -2,7 +2,7 @@
 # Visit our creator program here for unrestricted access for free at
 # discord.roswagger.com
 
-from modules.request import Swagger
+from roswagger import Swagger
 
 endpoint = "all"
 username = "Roblox"
