@@ -6,7 +6,7 @@ This project integrates with the RoSwagger API, allowing you to make requests to
 
 ## Backend
 
-The backend logic is implemented in `modules/request.py`. You can modify this file to fit your needs and integrate it into your bot.
+The backend logic is implemented in `pip install roswagger` it only needs 4 lines to use and easy to integrate it into your bot.
 
 ## Creator Program
 
